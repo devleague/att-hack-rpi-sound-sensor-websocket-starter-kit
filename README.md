@@ -1,6 +1,8 @@
 # AT&T Hackathon Raspberry Pi Sound Sensor Data to Websocket Starter Kit
 
-WebSockets is a technology, based on the ws protocol, that makes it possible to establish a continuous full-duplex connection stream between a client and a server.  A typical websocket client would be a user's browser, but the protocol is platform independent. It is the closest API to a raw network socket in the browser. Except a WebSocket connection is also much more than a network socket, as the browser abstracts all the complexity behind a simple API and provides a number of additional services:
+In this demo, we will be getting our hands dirty the Raspberry Pi and Nodejs. We will be writing a simple program in Node.js to listen to a sound sensor and then send that data to a webpage so we can visualize the data live! Sounds cool right?
+
+Okay, first of all, what are WebSockets? well, WebSockets is a technology, based on the ws protocol, that makes it possible to establish a continuous full-duplex connection stream between a client and a server.  A typical websocket client would be a user's browser, but the protocol is platform independent. It is the closest API to a raw network socket in the browser. Except a WebSocket connection is also much more than a network socket, as the browser abstracts all the complexity behind a simple API and provides a number of additional services:
 
 * Connection negotiation and same-origin policy enforcement
 * Interoperability with existing HTTP infrastructure

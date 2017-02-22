@@ -95,3 +95,4 @@ If everything is okay, as soon as you connect to the address, a new websocket wi
 ##Credits
 
 - [DevLeague](http://www.devleague.com/)
+- [Jr. DevLeague](http://jrdevleague.com/)

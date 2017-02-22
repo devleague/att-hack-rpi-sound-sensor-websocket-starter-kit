@@ -63,7 +63,6 @@ ws.onerror = function (err) {
 };
 
 ws.onmessage = function (event) {
-  // console.log(event.data);
   volArr.push(parseInt(event.data));
   let soundBar = document.getElementById('soundBar');
   soundBar.style.height = event.data + 'px';
